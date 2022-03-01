@@ -7,7 +7,7 @@
     display: table;
 }
 
-img.payway_payment_logo{
+img.payway_payment_logo {
     height: 33px !important;
     margin-top: 0px !important;
 }
@@ -15,4 +15,3 @@ img.payway_payment_logo{
 /*.payment_method_aba_payway_aim{
     display: none;
 }*/
-
