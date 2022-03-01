@@ -197,7 +197,7 @@ function plugin_include_template($template){
 				if( aba_PAYWAY_AIM::checkTransaction( $response['tran_id'] ) ){
 					$order_id = $response['tran_id'];
 					$order = new WC_Order($order_id);
-					$order->update_status('completed');
+					$order->update_status('processing');
                     //$order->payment_complete();
 					$woocommerce->cart->empty_cart();
 					echo 'Code: #0000'; exit;

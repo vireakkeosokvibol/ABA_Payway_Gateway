@@ -637,7 +637,7 @@ jQuery( function( $ ) {
 				success: function( code ) {
                     jQuery( '.woocommerce-error, .woocommerce-message' ).remove();
 					container.removeClass( 'processing' ).unblock();
-
+						alert('');
 					if ( code ) {
                         jQuery( 'form.woocommerce-checkout' ).before( code );
 
