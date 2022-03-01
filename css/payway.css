@@ -1,0 +1,18 @@
+.clearfix {
+    overflow: auto;
+}
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+img.payway_payment_logo{
+    height: 33px !important;
+    margin-top: 0px !important;
+}
+
+/*.payment_method_aba_payway_aim{
+    display: none;
+}*/
+
