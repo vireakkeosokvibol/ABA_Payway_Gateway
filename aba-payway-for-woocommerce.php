@@ -1,11 +1,11 @@
 <?php
 /*
-Plugin Name: ABA PayWay Payment Gateway for WooCommerce
-Plugin URI: https://wordpress.org/plugins/aba-payway-woocommerce-payment-gateway/#description
-Description: PayWay is Cambodia’s leading online payment gateway provided by Advanced Bank of Asia Ltd. (ABA Bank).
-Author: ABA Bank
-Author URI: https://www.ababank.com/
-Version: 1.0.9
+Plugin Name: ABA PayWay Gateway
+Plugin URI: https://github.com/konexdigital/ABA_Payway_Gateway
+Description: PayWay is Cambodia’s leading online payment gateway provided by Advanced Bank of Asia Ltd. (ABA Bank). This plugin is integrated Woocommerce with ABA Payway
+Author: KONEX Digital
+Author URI: https://www.konexdigital.com
+Version: 0.1.0
 */
 
 if (!defined('ABSPATH'))
